@@ -39,7 +39,7 @@ int main(){
 void mostrarListado(Libro l, Libro l_array[4]){
     cout<<"Listado de libros"<<endl;
     for(int i=0;i<4;i++){
-        cout<<endl<<"Libro "<<i++<<":"<<endl;
+        cout<<endl<<"Libro "<<i+1<<":"<<endl;
         l_array[i].printLibros();
         cout<<endl;
     }
