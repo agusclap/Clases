@@ -61,9 +61,6 @@ string Vehiculo::getColor(){
 	return color;
 }
 
-string Vehiculo::toString(){
-
-}
 
 void Vehiculo::printVehiculo(){
 	cout<<"Tipo: "<<tipo<<endl;

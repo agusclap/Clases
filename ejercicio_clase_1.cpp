@@ -56,7 +56,6 @@ void mostrarListado(Vehiculo v1, Vehiculo v2){
 
 void buscarPorPatente(Vehiculo v1, Vehiculo v2){
     char cadena[20];
-    char cadena1[20];
     cout<<"Ingrese la patente "<<endl;
     cin>>cadena;
     if(v1.getPatente() == cadena){
