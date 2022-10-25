@@ -23,7 +23,6 @@ int main(){
     cout<<"Ingrese la cantidad de actividades a agregar"<<endl;
     int cant=0;
     cin>>cant;
-    string nom = " ";
     string dias;
     string horario;
     int cupo, cant_inscriptos = 0;
