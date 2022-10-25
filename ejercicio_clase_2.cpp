@@ -1,3 +1,10 @@
+/*2. Crear una clase Libro con sus atributos (a elección) y métodos (setter(), getter(), toString()). Luego, crear una clase Principal en donde se declare 
+un vector de objetos Libro. 
+Luego llenar este vector con datos y llamar a las  funciones mostrarListado y calcularSumaPrecio. 
+Hacer el diagrama de clase de Libro.
+*/
+
+
 #include <iostream>
 #include <string>
 #include "Libro.h"

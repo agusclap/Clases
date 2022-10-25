@@ -22,6 +22,7 @@ public:
     string getAutor();
     void printLibros();
     ~Libro();
+    string toString();
 
 
 };
@@ -80,4 +81,9 @@ void Libro::printLibros(){
 
 Libro::~Libro(){
     cout<<"Ejecutando destructor"<<endl;
+}
+
+string Libro::toString(){
+	string cadena=nombre+"\t\t"+category+"\t\t"+std::to_string(stock)+"\t\t"+std::to_string(precio)+"\t\t"+autor;
+	return cadena;
 }

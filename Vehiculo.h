@@ -86,7 +86,10 @@ Vehiculo::~Vehiculo(){
 	cout<<"Ejecutando el destructor"<<endl;
 }
 
-
+string Vehiculo::toString(){
+	string cadena=tipo+"\t\t"+std::to_string(capacidad)+"\t\t"+patente+"\t\t"+color;
+	return cadena;
+}
 
 
 

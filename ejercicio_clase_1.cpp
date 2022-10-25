@@ -1,3 +1,11 @@
+/*1. Crear en código c++ una clase Vehículo y luego un vector de dos objetos.
+
+Clase Vehiculo
+
+Luego, crear una clase Principal en donde se declare e inicialice un vector con 2 objetos 
+(con los datos del diagrama). Crear y ejecutar las siguientes funciones mostrarListado, buscarPorPatente.
+*/
+
 #include <iostream>
 #include <string>
 #include "Vehiculo.h"
