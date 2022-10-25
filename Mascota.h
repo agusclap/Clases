@@ -24,6 +24,8 @@ public:
     string toString();
 
 };
+Mascota::Mascota(){
+}
 
 void Mascota::setTipo(string t){
     tipo_animal = t;
@@ -57,7 +59,6 @@ int Mascota::getEdadPersona(){
     return persona_resposable_edad;
 }
 void Mascota::printMascotas(){
-    cout<<"Mascota: "<<endl;
     cout<<"Tipo de animal: "<<tipo_animal<<endl;
     cout<<"Raza del animal: "<<raza<<endl;
     cout<<"Nombre de la mascota: "<<nombre_mascota<<endl;
@@ -67,4 +68,8 @@ void Mascota::printMascotas(){
 string Mascota::toString(){
 	string cadena=tipo_animal+"\t\t"+"\t\t"+raza+"\t\t"+nombre_mascota+"\t\t"+std::to_string(persona_resposable_edad);
 	return cadena;
+}
+
+Mascota::~Mascota(){
+    cout<<"Ejecutando destructor"<<endl;
 }
